@@ -1,0 +1,13 @@
+{
+  "name": "My App",
+  "description": "My test application.",
+  "launch_path": "/my-first-firefox-webapp/index.htm",
+  "icons": {
+    "60": "/img/icon-60.png"
+  },
+  "developer": {
+    "name": "flatbird",
+    "url": "http://flatbird.github.com"
+  },
+  "default_locale": "en"
+}
