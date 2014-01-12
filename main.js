@@ -7,7 +7,8 @@ window.addEventListener('DOMContentLoaded', function() {
 		install.setAttribute('style', 'display:inline;');
 		install.addEventListener('click', function(evt) {
 			var manifest = window.location.origin + '/manifest.webapp';
-			window.navigator.mozApps(manifest);
+			window.navigator.mozApps.install(manifest);
+			return false;
 		});
 	}
 });
